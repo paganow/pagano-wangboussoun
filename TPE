@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int A, B, C;
+    printf("Entrez la variable A\n");
+    scanf("%d",&A);
+    printf("Entrez la variable B\n");
+    scanf("%d",&B);
+    printf("A est egal a %d\n", A);
+    printf("B est egal a %d\n\n", B);
+    C=A;
+    A=B;
+    B=C;
+    printf("apres la permutation\n\n");
+    printf("A est egal a %d\n", A);
+    printf("B est egal a %d\n", B);
+    return 0;
+    }
